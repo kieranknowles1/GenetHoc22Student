@@ -98,9 +98,9 @@ public class Part1Test {
      */
     /*
     Ensure that q5 only contains unique elements via ArrayList.contains
-    O(n) before changes
+    O(n^2) before changes
     Change ArrayList to HashSet and remove now unnecessary contains
-    O(1) after changes
+    O(n) after changes
     */
 
     //public Collection<String> q5 = new ArrayList<String>();  // you can change this if you like but not name 
