@@ -21,7 +21,7 @@ public class DNAScanApp
     
     public static void main(String[] args) 
     {
-       GenHocDNADatabase db = new StudentSimulation( System.currentTimeMillis() ) ; 
+       GenHocDNAInterface db = new StudentSimulation( System.currentTimeMillis() ) ; 
        db.everythingWhichShouldBeImproved(); 
     }
     
